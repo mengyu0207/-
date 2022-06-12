@@ -94,6 +94,7 @@ function publishArticle(fd) {
             layer.msg('发布文章成功！')
             // 发布文章成功后，跳转到文章列表页面
             location.href = '/article/art_list.html'
+            window.parent.change();
         }
     })
 }
